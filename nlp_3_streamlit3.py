@@ -12,7 +12,6 @@ def load_embedding_model():
     return SentenceTransformer("all-MiniLM-L6-v2")
 @st.cache_resource
 def init_llm_model():
-    api_key="AIzaSyAU8zvecJofBAjo0ujo2X_fLY60N4B7UDA"
     genai.configure(api_key=api_key)
     return genai.GenerativeModel('gemini-2.5-flash')
 class SimpleRAG:
@@ -251,3 +250,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
