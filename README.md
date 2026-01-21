@@ -1,1 +1,1 @@
-# RAG_system
+A simple RAG system for answering questions based on custom documents. The system retrieves relevant text using vector embeddings and then generates answers using a language model. Retrieved context is used to improve accuracy and reduce hallucinations. The project shows how retrieval and generation can work together in practice.
